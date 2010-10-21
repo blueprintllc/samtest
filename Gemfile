@@ -2,12 +2,12 @@ source 'http://rubygems.org'
 
 gem 'rails', '3.0.0'
 gem 'sqlite3-ruby', '1.2.5', :require => 'sqlite3'
-
-group :test, :development do
-	gem 'rspec-rails', '>= 2.0.0.beta.22'
-	end
-
-
+gem 'rspec-rails', '>= 2.0.0.beta.22', :git => 'git://github.com/rspec/rspec-rails.git'
+gem 'rspec', '>= 2.0.0.beta.22', :git => 'git://github.com/rspec/rspec.git'
+gem 'rspec-core', '>= 2.0.0.beta.22', :git => 'git://github.com/rspec/rspec-core.git'
+gem 'rspec-expectations', '>= 2.0.0.beta.22', :git => 'git://github.com/rspec/rspec-expectations.git'
+gem 'rspec-mocks', '>= 2.0.0.beta.22', :git => 'git://github.com/rspec/rspec-mocks.git'
+gem 'webrat'
 
 
 # Bundle edge Rails instead:
